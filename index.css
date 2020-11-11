@@ -1,0 +1,40 @@
+﻿* {
+    box-sizing:border-box;
+    background-color:  #C8D0D8;
+    overflow: hidden;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+ }
+li.menu{
+    list-style: none;
+    display: flex;
+    font-size: 1.4vw;
+}
+ header{
+     display: flex;
+     justify-content: space-between;
+ }
+#logo{
+    font-family: 'Rock Salt', cursive;
+    padding-right: 2rem;
+    font-size: 2.5vw;
+    margin-left: 3rem;
+    margin-top: 0rem;
+}
+ul.item-menu{
+    padding: 0.5rem 1.7rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+           border-radius: 72px;
+    background: #c8d0d8;
+box-shadow:  3px 3px 5px #9aa0a6, 
+             -3px -3px 5px #f6ffff;
+             transition: 0.2;
+        }
+ul.item-menu:hover{   
+    box-shadow: inset 3px 3px 5px #9aa0a6, 
+   inset -3px -3px 5px #f6ffff;
+        }
+    
