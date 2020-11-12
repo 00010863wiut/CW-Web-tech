@@ -1,20 +1,25 @@
 ﻿* {
     box-sizing:border-box;
     background-color:  #C8D0D8;
-    overflow: hidden;
+ }
+ body{
+     overflow-x: hidden;
  }
  a{
      text-decoration: none;
      color: black;
  }
-li.menu{
+.menu{
     list-style: none;
+    padding: 1rem;
     display: flex;
-    font-size: 1.4vw;
 }
  header{
      display: flex;
      justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height: 13vh;
  }
 #logo{
     font-family: 'Rock Salt', cursive;
@@ -23,18 +28,119 @@ li.menu{
     margin-left: 3rem;
     margin-top: 0rem;
 }
-ul.item-menu{
-    padding: 0.5rem 1.7rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-           border-radius: 72px;
+.item-menu{
+    padding: 0.5rem 1.7rem 0.5rem;
+    margin-right: 2rem;
+    font-size: 1.4vw;
+    border-radius: 72px;
     background: #c8d0d8;
-box-shadow:  3px 3px 5px #9aa0a6, 
+    box-shadow:  3px 3px 5px #9aa0a6, 
              -3px -3px 5px #f6ffff;
              transition: 0.2;
         }
-ul.item-menu:hover{   
+.item-menu:hover{   
     box-shadow: inset 3px 3px 5px #9aa0a6, 
-   inset -3px -3px 5px #f6ffff;
+    inset -3px -3px 5px #f6ffff;
         }
-    
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.avatar{
+    border-radius: 50%; 
+    border: 10px solid #333439;
+    height: 47vh;
+    width:  70%; 
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.btn-about{
+    padding: 2vh 1.7vw 2vh;
+    border-radius: 72px;
+    border: none;
+    background: #c8d0d8;
+    box-shadow:  3px 3px 5px #9aa0a6, 
+             -3px -3px 5px #f6ffff;
+             transition: 0.2;
+    font-size: 1.1vw;
+}
+.btn-about:hover{
+    box-shadow: inset 3px 3px 5px #9aa0a6, 
+    inset -3px -3px 5px #f6ffff;
+
+}
+.text-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+.title {
+    font-size: 3vw;
+    margin-top: 12vh;
+} 
+.about-text {
+    font-size: 1.5vw;
+    max-width: 20vw;
+    margin-top: -3vh;
+}
+#left {
+    margin-left: 2.2vw;
+}
+#right {
+    margin-right: 5vw;
+} 
+
+/*second section*/
+
+.gnr_services{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333439;
+    padding-bottom: 15vh;
+    padding-top: 5vh;
+    padding-left: 7vw;
+    padding-right: 10vw;
+
+}
+.services{
+     display:flex;
+     margin-left: 1rem;
+     margin-right: 2rem;
+     padding: 4rem 4rem 4rem ;
+     border-radius: 25px;
+     background: #333439;
+     box-shadow: inset 13px 13px 19px #27282c, 
+                 inset -13px -13px 19px #3f4046;
+}
+.service_txt{
+    display: flex;
+    background-color: inherit;
+    color: #c8d0d8;
+    font-size: 2rem;
+}
+.title_services{
+    background-color: #333439;
+
+}
+.title_general{
+    display: flex;
+    justify-content: center;
+    background-color: #333439;
+}
+#text_service{
+    padding-top: 2rem;
+    background-color: #333439;
+    font-size: 3rem;
+    color: #c8d0d8;
+
+}
