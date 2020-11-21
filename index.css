@@ -11,7 +11,7 @@
      text-decoration: none;
      color: black;
  }
-.menu{
+#menu{
     list-style: none;
     padding: 1rem;
     display: flex;
@@ -43,6 +43,10 @@
 .item-menu:hover{   
     box-shadow: inset 3px 3px 5px #9aa0a6, 
     inset -3px -3px 5px #f6ffff;
+        }
+        .active{
+            box-shadow: inset 3px 3px 5px #9aa0a6, 
+            inset -3px -3px 5px #f6ffff;
         }
 .about{
     display: flex;
@@ -118,9 +122,9 @@
 }
 .services{
      display:flex;
-     margin-left: 1rem;
-     margin-right: 2rem;
-     padding: 4rem 4rem 4rem ;
+     margin-left: 1vw;
+     margin-right: 2vw;
+     padding: 4vw 4vh 4vw ;
      border-radius: 25px;
      background: #333439;
      box-shadow: inset 13px 13px 19px #27282c, 
@@ -134,7 +138,7 @@
 }
 .title_services{
     background-color: #333439;
-
+    font-family: 'Rosarivo', serif;
 }
 .title_general{
     display: flex;
@@ -146,6 +150,8 @@
     background-color: #333439;
     font-size: 3rem;
     color: #c8d0d8;
+    font-family: 'Rosarivo', serif;
+
 
 }
 /**skills section animation and style**/
@@ -434,6 +440,7 @@ font-size: 2rem;
     color: #333439;
     text-align: center;
     font-size: 3rem;
+    font-family: 'Rosarivo', serif;
 }
 #btn_portfolio{
    border: none;
@@ -459,7 +466,7 @@ font-size: 2rem;
 .blog {
     background-color: #333439;
     padding: 20px;
-    font-family: Arial;
+    font-family: 'Rosarivo', serif;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -476,7 +483,7 @@ font-size: 2rem;
     color: #333439;
     text-align: center;
     font-size: 3rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Rosarivo', serif;
 }
 .blogcontent{
     border-radius: 28px;
@@ -522,7 +529,7 @@ padding: 3rem 3rem 3rem 3rem;
 }
 /**Footer finally**/
 footer{
-    font-family: Arial;
+    font-family: 'Rosarivo', serif;
      display: flex;
     justify-content: center;
     align-content: center;
@@ -568,6 +575,7 @@ box-shadow:  7px 7px 14px #b4bbc2,
     width: 5rem;
     height: 5rem;
     margin-top: 4rem;
+    margin-right: 2rem;
     margin-left: 3rem;
     margin-left: 3rem;
     border-radius: 50%;
@@ -586,9 +594,31 @@ box-shadow: inset 7px 7px 14px #b4bbc2,
     color: #616264;
 
 }
+#hamMenu{
+    display: none;
+}
 .media_icon:hover{
     border-radius: 50%;
 background: #c8d0d8;
 box-shadow:  7px 7px 14px #b4bbc2, 
              -7px -7px 14px #dce5ee;
 }
+@media only screen and (max-width: 1500px) {
+    body {
+      background-color: lightblue;
+    }
+#hamMenu{
+    display: block;
+    display: flex;
+    height: 10vh;
+}
+#menu{
+    display: none;
+}
+
+#logo{
+    display: flex;
+    font-size: 4vh;
+}
+ }
+

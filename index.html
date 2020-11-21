@@ -7,19 +7,24 @@
     <link rel="stylesheet" href="index.css"> <!--linking css file-->
     <link rel="icon" href="/Media files/logo.png"> <!--icon of the website-->
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rosarivo&display=swap" rel="stylesheet">
 <!--font export-->
 </head>
 <body>
-<header>
+<header class="topnav">
     <a href="index.html" id="logo">MP</a>
-    <nav> <!--navigation plasing list elemments-->
-<ul class="menu">
-    <li class="item-menu"><a  href="#">About</a></li>
-    <li class="item-menu"><a  href="#">Services</a></li>
+    <nav> <!--navigation plasing list elemments--> 
+    <img onclick="myFunction()" id="hamMenu" src="/Media files/hamburger-icon.png">
+    <div id="myDropdown">
+<ul id="menu">
+    <li class="item-menu active"><a  href="#">About</a></li>
+    <li class="item-menu"><a  href="services.html">Services</a></li>
     <li class="item-menu"><a  href="#">Portfolio</a></li>
     <li class="item-menu"><a  href="#">Contacts</a></li>
     <li class="item-menu"><a  href="#">Blog</a></li>
-</ul>
+   
+</ul> </div>
     </nav> 
 </header><!--end of the header section-->
 
@@ -155,5 +160,6 @@
 </div>
 <div class="copyright"> <h3> This website is created for educational purpose<br> Copyright 2020 / 00010863 </h3></div>
 </footer>
+<script src="/Script.js"></script>
 </body>
 </html>
