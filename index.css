@@ -501,7 +501,7 @@ footer {
   padding-top: 2rem;
 }
 #logofooter {
-  width: 11vw;
+  width: 5vw;
 }
 .menu_footer {
   display: flex;
@@ -519,6 +519,7 @@ footer {
   padding-right: 3vw;
   padding-left: 3vw;
   font-size: 2.5rem;
+  margin-left: 1rem;
 }
 .footermenu:hover {
   border-radius: 20px;
