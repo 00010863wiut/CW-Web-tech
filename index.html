@@ -15,16 +15,18 @@
 <header class="topnav">
     <a href="index.html" id="logo">MP</a>
     <nav> <!--navigation plasing list elemments--> 
-    <img onclick="myFunction()" id="hamMenu" src="/Media files/hamburger-icon.png">
-    <div id="myDropdown">
-<ul id="menu">
+    <img id="hamMenu" src="/Media files/hamburger-icon.png">
+    <!-- <div id="myDropdown"> -->
+<ul id="menu" class="navbar">
     <li class="item-menu active"><a  href="#">About</a></li>
+    <li class="item-menu"><a  href="experience.html">Experience</a></li>
     <li class="item-menu"><a  href="services.html">Services</a></li>
-    <li class="item-menu"><a  href="#">Portfolio</a></li>
+    <li class="item-menu"><a  href="portfolio.html">Portfolio</a></li>
     <li class="item-menu"><a  href="#">Contacts</a></li>
     <li class="item-menu"><a  href="#">Blog</a></li>
    
-</ul> </div>
+</ul> 
+<!-- </div> -->
     </nav> 
 </header><!--end of the header section-->
 
@@ -44,7 +46,11 @@
 </div>
 </section> 
 <!--beginning of the services part-->
-<section class="title_general"> <div class="title_services"><h1 id="text_service">General Services</h1></div> </section>
+<section class="title_general">
+     <div class="title_services">
+         <h1 id="text_service">General Services</h1>
+        </div> 
+    </section>
 <section class="gnr_services">
   
     <div class="services">
@@ -74,26 +80,25 @@
         
     </div>
     <section class="edu_all">
-    <div class="container_education"> 
-        <h1 class="edu"> Education </h1>
-<ul class="unilst">
-    <li class="uni">Florida State University - Bachelors in Computer Sciense </li>
-    <li class="uni">Color Ltd - Junior Web Developer </li>
-    <li class="uni">Color Ltd - Senior Web Developer</li>
-    <li class="uni">WebTech Design Studio - Lead Graphuc disigner</li>
-
-</ul> 
+    <h1 class="edu-title">Education</h1>
+    <div class="container-education">
+        <p class="place">Florida State University - Bachelors in Computer Science</p>
+        <p class="year">2002-2006</p>
     </div>
-    <div class="years"> 
-<ul class="yearslst">
-    <li class="year">2002-2006 </li>
-    <li class="year">2006-2010 </li>
-    <li class="year">2010-2018</li>
-    <li class="year">2018-present</li>
-
-</ul> 
-
-    </div></section> </section>
+    <div class="container-education">
+        <p class="place">Color Ltd - Junior Web Developer</p>
+        <p class="year">2006-2010</p>
+    </div>
+    <div class="container-education">
+        <p class="place">Color Ltd - Senior Web Developer</p>
+        <p class="year">2010-2018</p>
+    </div>
+    <div class="container-education">
+        <p class="place">WebTech Design Studio - Lead Graphuc designer</p>
+        <p class="year">2018-present</p>
+    </div>
+    </section> 
+</section>
     <!--portfolio section-->
 <section class="titlework">My latest works<hr> </section> 
 <section class="portfolio">
@@ -107,7 +112,9 @@
     <button id="btn_portfolio"><a href="#">See More</a> </button>
 </section>
 <!--blog section--> 
-<section class="title_blog"> <h1 id="fromblog" >From my blog</h1> <hr></section>
+<section> 
+    <h1 id="fromblog" >From my blog</h1> <hr>
+</section>
 
 <section class="blog">
            <div class="blog_post"> 

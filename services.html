@@ -12,10 +12,12 @@
     <header class="topnav">
         <a href="index.html" id="logo">MP</a>
         <nav> <!--navigation plasing list elemments-->
-    <ul id="menu">
+    <img id="hamMenu" src="/Media files/hamburger-icon.png">
+    <ul id="menu" class="navbar">
         <li class="item-menu"><a  href="index.html">About</a></li>
+        <li class="item-menu"><a  href="experience.html">Experience</a></li>
         <li class="item-menu active"><a  href="services.html">Services</a></li>
-        <li class="item-menu"><a  href="#">Portfolio</a></li>
+        <li class="item-menu"><a  href="portfolio.html">Portfolio</a></li>
         <li class="item-menu"><a  href="#">Contacts</a></li>
         <li class="item-menu"><a  href="#">Blog</a></li>
     </ul>
@@ -53,8 +55,54 @@
                 <p class="servicetext" > I am here also to design inner and outer pages publications, journals and magazines using the latest market trends</p>       
         </div>
     </section>
-<section>
-    
+    <section id="table">
+        <table id="servicePrice">
+            <tr>
+                <th>Service</th>
+                <th>Period</th>
+                <th>Price</th>
+              </tr>
+              <tr>
+                <td>Branding</td>
+                <td>7-10 days </td>
+                <td>$1000</td>
+              </tr>
+              <tr>
+                <td>Packaging Design</td>
+                <td>4-7 days</td>
+                <td>$250</td>
+              </tr>
+              <tr>
+                <td>UI/UX Design (Website)</td>
+                <td>5-8 days</td>
+                <td>$500</td>
+              </tr>
+              <tr>
+                <td>Web Researching and Marketing</td>
+                <td>6-9 days</td>
+                <td>$200</td>
+              </tr>
+              <tr>
+                <td>Logo Design</td>
+                <td>3-6 days</td>
+                <td>$250</td>
+              </tr>
+              <tr>
+                <td>Poster and Publication Design</td>
+                <td>4-7 days</td>
+                <td>$600</td>
+              </tr>
+              <tr>
+               
+        </table>
+    </section>
+<section id="serviceContact">
+    <button class="btnservice">
+        <a href="">See Portfolio</a> 
+    </button>
+    <button class="btnservice">
+      <a href="">Contact Me</a> 
+    </button>
 </section>
 <footer>
     <div class="logocontain">
@@ -84,5 +132,6 @@
 </div>
 <div class="copyright"> <h3> This website is created for educational purpose<br> Copyright 2020 / 00010863 </h3></div>
 </footer>
+<script src="/Script.js"></script>
 </body>
 </html>
