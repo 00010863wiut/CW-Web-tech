@@ -49,85 +49,63 @@
   .active {
     box-shadow: inset 3px 3px 5px #9aa0a6, inset -3px -3px 5px #f6ffff;
   }
-  .portfolio {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 80vw;
-    margin: auto;
+  .form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
   }
-  .container {
-    height: auto;
+  input[type=text], select, textarea {
+    border: 1px solid #c8d0d8;
+    border-radius: 5px;
+    box-shadow: inset 6px 6px 12px #bac1c9, 
+    inset -6px -6px 12px #d6dfe7;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 30rem;
-    border-radius: 43px;
-    margin-bottom: 3rem;
-    background: linear-gradient(145deg, #d6dfe7, #b4bbc2);
-    box-shadow: 7px 7px 14px #a4abb1, -7px -7px 14px #ecf5ff;
-    overflow: hidden;
-  }
-  
-  h1 {
-    background-color: inherit;
-  }
-  p {
-    background-color: inherit;
-  }
-  a {
-    background-color: inherit;
-  }
-  .content-text {
-    display: none;
-    position: relative;
+    justify-content: center;
+    width: 40vw;
+    padding: 1rem;
+    box-sizing: border-box;
     margin-top: 1rem;
-    background-color: inherit;
-    text-align: center;
+    margin-bottom: 2rem;
+    resize: vertical;
   }
   
-  .buttons {
-    display: flex;
-    margin-top: 20px;
-    position: relative;
-    /* margin-top: 60vh; */
-  }
-  .img-div:hover {
-    opacity: 0.9;
-    transform: scale(1.05);
-    cursor: pointer;
-  }
-  
-  .img-div {
-    border-radius: 43px;
-    object-fit: cover;
-    position: relative;
-    height: 50vh;
-    width: 100%;
-    transition: 0.5s;
-  }
-  .buttons {
-    background-color: inherit;
-  }
-  button {
-    padding: 1vh 2vw 1vh;
-    margin: 1vh 1vw 3vh 1vw;
-    border-radius: 10px;
+  input[type=submit] {
     background: #c8d0d8;
-    box-shadow: 5px 5px 7px #aab1b8, -5px -5px 7px #e6eff8;
+box-shadow: inset 6px 6px 12px #bac1c9, 
+inset -6px -6px 12px #d6dfe7;
+    color:black;
+    padding: 12px 20px;
     border: none;
-    color: #333439;
-    font-size: 1.6rem;
-  }
-  button:hover {
-    background: linear-gradient(145deg, #b4bbc2, #d6dfe7);
-    box-shadow: 5px 5px 7px #aab1b8, -5px -5px 7px #e6eff8;
+    border-radius: 4px;
     cursor: pointer;
   }
-  button:focus {
-    outline: none;
+  
+  input[type=submit]:hover {
+    background-color: #c8d0d8;
+    box-shadow:  6px 6px 12px #bac1c9, 
+             -6px -6px 12px #d6dfe7;
   }
+  
+  .container {
+    border-radius: 5px;
+    padding: 4rem 4rem 4rem 4rem;
+    border-radius: 10px;
+background: #c8d0d8;
+box-shadow: inset 6px 6px 12px #bac1c9, 
+inset -6px -6px 12px #d6dfe7;
+  }
+  #contactme{
+      margin-bottom: 5rem;
+      font-size: 2rem;
+  }
+
+
+
+  
   /**Footer finally**/
   footer {
     font-family: "Rosarivo", serif;
@@ -140,7 +118,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 3rem;
+    padding-top: 10rem;
   }
   #logofooter {
     width: 5vw;
@@ -199,6 +177,7 @@
     background: #c8d0d8;
     box-shadow: 7px 7px 14px #b4bbc2, -7px -7px 14px #dce5ee;
   }
+  
   @media only screen and (max-width: 1500px) {
     #hamMenu {
       display: block;
@@ -230,5 +209,4 @@
     #logofooter {
       width: 15vw;
     }
-  }
-  
+}
