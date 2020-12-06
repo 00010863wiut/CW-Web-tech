@@ -48,10 +48,10 @@
   .active {
     box-shadow: inset 3px 3px 5px #9aa0a6, inset -3px -3px 5px #f6ffff;
   }
-#latestarticles{
+  #latestarticles{
     margin-top: 3rem;
-}
- #sidebar{
+  }
+   #sidebar{
     margin-left: 1rem;
     padding: 1rem 1rem 1rem 1rem;
     margin-top: -16rem;
@@ -61,34 +61,51 @@
     overflow: auto;
     box-shadow: inset 7px 7px 6px #b0b7be, 
             inset -7px -7px 6px #e0e9f2;
- }
- .latest{
+   }
+   .latest{
      display: flex;
      flex-direction: column;
      align-items: center;
      list-style: none;
- }
- #title_latest{
+   }
+   #title_latest{
      font-size: 1.5vw;
- }
-.imglatest{
+   }
+   .imglatest{
     object-fit: cover;
     width: 10vw;
     height: 13vh;
     margin-bottom: 1.5rem;
     margin-top: 2rem;
-}
-.blog{
+   }
+   .blog{
     height: 80vh;
-}
-p{
+   }
+   p{
     font-size: 1vw;
-}
-button{
-margin-top: 1rem;
-border: none;
-}
-
+   }
+   button{
+   padding: 0.5vh 2vw 0.5vh 2vw;
+   margin-top: 1rem;
+   border: none;
+   border-radius: 10px;
+   box-shadow: 3px 3px 5px #9aa0a6, -3px -3px 5px #f6ffff;
+    transition: 0.2;
+   }
+   button:hover{
+    box-shadow: inset 3px 3px 5px #9aa0a6, inset -3px -3px 5px #f6ffff;
+   }
+   .blog{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+   .blogtext{
+     width: 40vw;
+   }
+   .img{
+     width: 40vw;
+   }
   /**Footer finally**/
   footer {
     font-family: "Rosarivo", serif;
@@ -165,7 +182,7 @@ border: none;
   @media only screen and (max-width: 1500px) {
     .footermenu {
         font-size: 2rem;
-        margin-left: 3rem;
+        margin-left: 5rem;
       }
     #hamMenu {
       display: block;
