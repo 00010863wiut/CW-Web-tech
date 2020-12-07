@@ -69,7 +69,8 @@
      list-style: none;
    }
    #title_latest{
-     font-size: 1.5vw;
+     font-size: 1.3vw;
+     margin-bottom: 0;
    }
    .imglatest{
     object-fit: cover;
@@ -99,13 +100,35 @@
      display: flex;
      flex-direction: column;
      align-items: center;
+     margin-top: 2vw;
+   }
+   .blogall{
+     display: flex;
+     flex-direction: column;
    }
    .blogtext{
      width: 40vw;
+     font-size: 1.5rem;
+     margin-bottom: 2vw;
+   }
+   .blogtext1{
+    width: 40vw;
    }
    .img{
      width: 40vw;
    }
+   h1{
+    font-size: 2vw;
+    margin-bottom: 2rem;
+  }
+  ul{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  h2{
+    margin-bottom: 2rem;
+  }
   /**Footer finally**/
   footer {
     font-family: "Rosarivo", serif;
@@ -178,8 +201,13 @@
     background: #c8d0d8;
     box-shadow: 7px 7px 14px #b4bbc2, -7px -7px 14px #dce5ee;
   }
-  
   @media only screen and (max-width: 1500px) {
+    .blog{
+      margin-bottom: -10rem;
+    }
+    h1{
+      font-size: 2rem;
+    }
     .footermenu {
         font-size: 2rem;
         margin-left: 5rem;
@@ -199,6 +227,26 @@
     }
   }
   @media all and (max-width: 770px) {
+    .blog{
+      margin-bottom: -10rem;
+    }
+    .blogtext{
+      width: 23rem;
+      margin-bottom: rem;
+    }
+    header{
+      margin-bottom: 5rem;
+    }
+    #logo{
+      margin-left: 3rem;
+      margin-top: 2rem;
+    }
+    h1{
+      font-size: 1.5rem;
+    }
+    .img{
+      width: 70vw;
+    }
     .footermenu {
       font-size: 2rem;
     }

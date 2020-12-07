@@ -57,7 +57,7 @@ header {
   border-radius: 50%;
   border: 10px solid #333439;
   height: 47vh;
-  width: 70%;
+  width: 28rem;
 }
 .circle {
   display: flex;
@@ -584,10 +584,11 @@ footer {
   .avatar {
     width: 35vw;
     height: 100%;
+    margin-top: -5rem;
   }
   .about {
-    margin-top: 4rem;
-    height: 60vh;
+    margin-top: 2rem;
+    height: 45vh;
   }
   .title {
     margin-top: 8vh;
@@ -598,10 +599,16 @@ footer {
     padding-bottom: 2rem;
   }
   .btn-about {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .place {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+  #text_service{
+    font-size: 2rem;
+  }
+  .service_txt{
+    font-size: 1.3rem;
   }
   .year {
     font-size: 1.4rem;
@@ -609,7 +616,34 @@ footer {
   .edu-title {
     font-size: 3vw;
   }
+  .blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .blogtext {
+    font-size: 1rem;
+  }
+  .imageblog{
+    height: 30vh;
+    width: 50vw;
+  }
+  #fromblog{
+    font-size: 2rem;
+  }
+  .titlework{
+    font-size: 2rem;
+  }
+  .blog_post{
+    height: auto;
+    width: 60vw;
+    align-items: center;
+  }
+  .blogtext{
+    font-size: 1rem;
+  }
+  .blogtitle{
     font-size: 1rem;
   }
   .footermenu {
@@ -624,6 +658,10 @@ footer {
   }
   #btn_portfolio {
     font-size: 2vw;
+  }
+  #logofooter{
+    height: 4rem;
+    width: auto;
   }
 }
 @media all and (max-width: 430px) {

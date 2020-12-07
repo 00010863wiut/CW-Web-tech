@@ -92,3 +92,18 @@ var x = document.getElementById("menu");
   } else {
     x.style.display = "block";
   }})
+//form validation 
+function validate() {
+      
+  if( document.myForm.fname.value == "" ) {
+     alert( "Please provide your name!" );
+     document.myForm.fname.focus() ;
+     return false;
+  }
+  if( document.myForm.lname.value == "" ) {
+     alert( "Please provide your last name!" );
+     document.myForm.lname.focus() ;
+     return false;
+  }
+  return( true );
+}
