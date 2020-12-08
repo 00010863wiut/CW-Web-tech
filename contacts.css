@@ -1,209 +1,206 @@
 * {
-    box-sizing: border-box;
-    background-color: #c8d0d8;
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    overflow-x: hidden;
-  }
-  a {
-    text-decoration: none;
-    color: black;
+  box-sizing: border-box;
+  background-color: #c8d0d8;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navbar {
+  list-style: none;
+  padding: 1rem;
+  display: flex;
+}
+#hamMenu {
+  display: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 13vh;
+  margin-bottom: 10rem;
+}
+#logo {
+  font-family: "Rock Salt", cursive;
+  padding-right: 2rem;
+  font-size: 2.5vw;
+  margin-left: 3rem;
+  margin-top: 0rem;
+}
+.item-menu {
+  padding: 0.5rem 1.7rem 0.5rem;
+  margin-right: 2rem;
+  font-size: 1.4vw;
+  border-radius: 72px;
+  background: #c8d0d8;
+  box-shadow: 3px 3px 5px #9aa0a6, -3px -3px 5px #f6ffff;
+  transition: 0.2;
+}
+.item-menu:hover {
+  box-shadow: inset 3px 3px 5px #9aa0a6, inset -3px -3px 5px #f6ffff;
+}
+.active {
+  box-shadow: inset 3px 3px 5px #9aa0a6, inset -3px -3px 5px #f6ffff;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input[type="text"],
+select,
+textarea {
+  border: 1px solid #c8d0d8;
+  border-radius: 5px;
+  box-shadow: inset 6px 6px 12px #bac1c9, inset -6px -6px 12px #d6dfe7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background: #c8d0d8;
+  box-shadow: inset 6px 6px 12px #bac1c9, inset -6px -6px 12px #d6dfe7;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #c8d0d8;
+  box-shadow: 6px 6px 12px #bac1c9, -6px -6px 12px #d6dfe7;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 4rem 4rem 4rem 4rem;
+  border-radius: 10px;
+  background: #c8d0d8;
+  box-shadow: inset 6px 6px 12px #bac1c9, inset -6px -6px 12px #d6dfe7;
+}
+#contactme {
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+/**Footer finally**/
+footer {
+  font-family: "Rosarivo", serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.logocontain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+#logofooter {
+  width: 5vw;
+}
+.menu_footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 80vw;
+  margin: auto;
+}
+.footermenu {
+  list-style: none;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  font-size: 2.5rem;
+}
+.footermenu:hover {
+  border-radius: 20px;
+  background: #c8d0d8;
+  box-shadow: 7px 7px 14px #b4bbc2, -7px -7px 14px #dce5ee;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.media_icon {
+  object-fit: contain;
+  width: 5rem;
+  height: 5rem;
+  margin-top: 4vh;
+  margin-right: 2vw;
+  margin-left: 3vw;
+  border-radius: 50%;
+  background: #c8d0d8;
+  box-shadow: inset 7px 7px 14px #b4bbc2, inset -7px -7px 14px #dce5ee;
+  padding: 1vh 1vw 1vh;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  text-align: center;
+  line-height: 2;
+  color: #616264;
+}
+.media_icon:hover {
+  border-radius: 50%;
+  background: #c8d0d8;
+  box-shadow: 7px 7px 14px #b4bbc2, -7px -7px 14px #dce5ee;
+}
+
+@media only screen and (max-width: 1500px) {
+  #hamMenu {
+    display: block;
+    display: flex;
+    height: 10vh;
   }
   .navbar {
-    list-style: none;
-    padding: 1rem;
-    display: flex;
-  }
-  #hamMenu {
     display: none;
   }
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 13vh;
-    margin-bottom: 10rem;
-  }
+
   #logo {
-    font-family: "Rock Salt", cursive;
-    padding-right: 2rem;
-    font-size: 2.5vw;
-    margin-left: 3rem;
-    margin-top: 0rem;
-  }
-  .item-menu {
-    padding: 0.5rem 1.7rem 0.5rem;
-    margin-right: 2rem;
-    font-size: 1.4vw;
-    border-radius: 72px;
-    background: #c8d0d8;
-    box-shadow: 3px 3px 5px #9aa0a6, -3px -3px 5px #f6ffff;
-    transition: 0.2;
-  }
-  .item-menu:hover {
-    box-shadow: inset 3px 3px 5px #9aa0a6, inset -3px -3px 5px #f6ffff;
-  }
-  .active {
-    box-shadow: inset 3px 3px 5px #9aa0a6, inset -3px -3px 5px #f6ffff;
-  }
-  .form{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      
-  }
-  input[type=text], select, textarea {
-    border: 1px solid #c8d0d8;
-    border-radius: 5px;
-    box-shadow: inset 6px 6px 12px #bac1c9, 
-    inset -6px -6px 12px #d6dfe7;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 40vw;
-    padding: 1rem;
-    box-sizing: border-box;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    resize: vertical;
+    font-size: 4vh;
   }
-  
-  input[type=submit] {
-    background: #c8d0d8;
-box-shadow: inset 6px 6px 12px #bac1c9, 
-inset -6px -6px 12px #d6dfe7;
-    color:black;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #c8d0d8;
-    box-shadow:  6px 6px 12px #bac1c9, 
-             -6px -6px 12px #d6dfe7;
-  }
-  
-  .container {
-    border-radius: 5px;
-    padding: 4rem 4rem 4rem 4rem;
-    border-radius: 10px;
-background: #c8d0d8;
-box-shadow: inset 6px 6px 12px #bac1c9, 
-inset -6px -6px 12px #d6dfe7;
-  }
-  #contactme{
-      margin-bottom: 5rem;
-      font-size: 2rem;
-  }
-  /**Footer finally**/
-  footer {
-    font-family: "Rosarivo", serif;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-  }
-  .logocontain {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10rem;
-  }
-  #logofooter {
-    width: 5vw;
-  }
-  .menu_footer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 80vw;
-    margin: auto;
-  }
+}
+@media all and (max-width: 770px) {
   .footermenu {
-    list-style: none;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    padding-bottom: 1vh;
-    padding-top: 1vh;
-    padding-right: 3vw;
-    padding-left: 3vw;
-    font-size: 2.5rem;
-  }
-  .footermenu:hover {
-    border-radius: 20px;
-    background: #c8d0d8;
-    box-shadow: 7px 7px 14px #b4bbc2, -7px -7px 14px #dce5ee;
-  }
-  .socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    font-size: 2rem;
   }
   .media_icon {
-    object-fit: contain;
-    width: 5rem;
-    height: 5rem;
-    margin-top: 4vh;
-    margin-right: 2vw;
-    margin-left: 3vw;
-    border-radius: 50%;
-    background: #c8d0d8;
-    box-shadow: inset 7px 7px 14px #b4bbc2, inset -7px -7px 14px #dce5ee;
-    padding: 1vh 1vw 1vh;
+    width: 3rem;
+    height: 3rem;
   }
-  .copyright {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
-    text-align: center;
-    line-height: 2;
-    color: #616264;
+  h3 {
+    font-size: 1rem;
   }
-  .media_icon:hover {
-    border-radius: 50%;
-    background: #c8d0d8;
-    box-shadow: 7px 7px 14px #b4bbc2, -7px -7px 14px #dce5ee;
+}
+@media all and (max-width: 430px) {
+  #logofooter {
+    width: 15vw;
   }
-  
-  @media only screen and (max-width: 1500px) {
-    #hamMenu {
-      display: block;
-      display: flex;
-      height: 10vh;
-    }
-    .navbar {
-      display: none;
-    }
-  
-    #logo {
-      display: flex;
-      font-size: 4vh;
-    }
-  }
-  @media all and (max-width: 770px) {
-    .footermenu {
-      font-size: 2rem;
-    }
-    .media_icon {
-      width: 3rem;
-      height: 3rem;
-    }
-    h3 {
-      font-size: 1rem;
-    }
-  }
-  @media all and (max-width: 430px) {
-    #logofooter {
-      width: 15vw;
-    }
 }

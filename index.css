@@ -604,10 +604,10 @@ footer {
   .place {
     font-size: 1.2rem;
   }
-  #text_service{
+  #text_service {
     font-size: 2rem;
   }
-  .service_txt{
+  .service_txt {
     font-size: 1.3rem;
   }
   .year {
@@ -616,7 +616,7 @@ footer {
   .edu-title {
     font-size: 3vw;
   }
-  .blog{
+  .blog {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -625,25 +625,25 @@ footer {
   .blogtext {
     font-size: 1rem;
   }
-  .imageblog{
+  .imageblog {
     height: 30vh;
     width: 50vw;
   }
-  #fromblog{
+  #fromblog {
     font-size: 2rem;
   }
-  .titlework{
+  .titlework {
     font-size: 2rem;
   }
-  .blog_post{
+  .blog_post {
     height: auto;
     width: 60vw;
     align-items: center;
   }
-  .blogtext{
+  .blogtext {
     font-size: 1rem;
   }
-  .blogtitle{
+  .blogtitle {
     font-size: 1rem;
   }
   .footermenu {
@@ -659,7 +659,7 @@ footer {
   #btn_portfolio {
     font-size: 2vw;
   }
-  #logofooter{
+  #logofooter {
     height: 4rem;
     width: auto;
   }
