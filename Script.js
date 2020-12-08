@@ -108,5 +108,10 @@ function validate() {
     document.myForm.lname.focus();
     return false;
   }
+  if (document.myForm.mail.value == "") {
+    alert("Please provide your email!");
+    document.myForm.mail.focus();
+    return false;
+  }
   return (true);
 }

@@ -68,8 +68,9 @@ header {
   list-style: none;
 }
 #title_latest {
-  font-size: 1.3vw;
+  font-size: 1vw;
   margin-bottom: 0;
+  margin-top: -1rem;
 }
 .imglatest {
   object-fit: cover;
@@ -118,7 +119,7 @@ button:hover {
 }
 h1 {
   font-size: 2vw;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 ul {
   margin-top: 2rem;
@@ -126,7 +127,7 @@ ul {
   margin-bottom: 1rem;
 }
 h2 {
-  margin-bottom: 2rem;
+
 }
 /**Footer finally**/
 footer {
@@ -202,10 +203,15 @@ footer {
 }
 @media only screen and (max-width: 1500px) {
   .blog {
-    margin-bottom: -10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   h1 {
     font-size: 2rem;
+  }
+  ul{
+    font-size: 1rem;
   }
   .footermenu {
     font-size: 2rem;
@@ -226,11 +232,16 @@ footer {
   }
 }
 @media all and (max-width: 770px) {
+  #logofooter{
+    height: 4rem;
+    width: 4rem;
+    margin-left: 4rem;
+  }
   .blog {
-    margin-bottom: -10rem;
+    margin-bottom: 1rem;
   }
   .blogtext {
-    width: 23rem;
+    width: 80vw;
     margin-bottom: rem;
   }
   header {

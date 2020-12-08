@@ -355,7 +355,7 @@ li.figma {
   grid-template-columns: 30vw 30vw 30vw;
   justify-content: space-around;
   grid-column-gap: 1vw;
-  grid-row-gap: 3vh;
+  grid-row-gap: 0.4rem;
 }
 #p1 {
   grid-column: 1;
@@ -443,7 +443,6 @@ li.figma {
   font-size: 3rem;
   font-family: "Rosarivo", serif;
 }
-
 .blogcontent {
   border-radius: 28px;
   background: #333439;
@@ -584,6 +583,7 @@ footer {
   }
   .avatar{
     width: 30vw;
+    height: 30vw;
   }
 }
 
@@ -625,7 +625,7 @@ footer {
     font-size: 1.4rem;
   }
   .edu-title {
-    font-size: 3vw;
+    font-size: 2rem;
   }
   .blog {
     display: flex;

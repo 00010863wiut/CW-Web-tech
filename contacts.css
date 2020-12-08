@@ -188,6 +188,10 @@ footer {
   }
 }
 @media all and (max-width: 770px) {
+  #logofooter{
+    height: 4rem;
+    width: 4rem;
+  }
   .footermenu {
     font-size: 2rem;
   }
