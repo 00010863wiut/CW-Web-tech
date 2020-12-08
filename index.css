@@ -565,6 +565,10 @@ footer {
   display: block;
 }
 @media only screen and (max-width: 1500px) {
+  header{
+    height: 20vh;
+    margin-bottom: 10vh;
+  }
   #hamMenu {
     display: block;
     display: flex;
@@ -578,9 +582,16 @@ footer {
     display: flex;
     font-size: 4vh;
   }
+  .avatar{
+    width: 30vw;
+  }
 }
 
 @media all and (max-width: 770px) {
+  header{
+    height: 20vh;
+    margin-top: -3rem;
+  }
   .avatar {
     width: 35vw;
     height: 100%;
